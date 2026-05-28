@@ -15,6 +15,31 @@ The goal of this project is to analyze suspicious `.eml` email files and identif
 - Calculates a basic risk score
 - Generates analyst-style investigation notes
 
+    How to Run
+
+1. Clone the repository:
+
+git clone https://github.com/GloaMaxi/email-threat-inspector.git
+cd email-threat-inspector
+
+2. Create a virtual environment:
+
+python -m venv venv
+
+3. Activate the virtual environment (Windows PowerShell):
+
+.\venv\Scripts\Activate.ps1
+
+4. Install dependencies:
+
+python -m pip install -r requirements.txt
+
+5. Start the Streamlit application:
+
+python -m streamlit run app.py
+
+6. Open the local URL shown in the terminal and upload the included sample_email.eml file.
+
 
 <img width="1879" height="692" alt="app" src="https://github.com/user-attachments/assets/044e8d2c-2e50-4d0f-977f-af55b5f92241" />
 
