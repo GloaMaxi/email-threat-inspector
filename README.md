@@ -14,3 +14,5 @@ The goal of this project is to analyze suspicious `.eml` email files and identif
 - Detects risky attachment references
 - Calculates a basic risk score
 - Generates analyst-style investigation notes
+
+![Application Screenshot](screenshots/app.png)
